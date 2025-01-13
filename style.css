@@ -1,1 +1,46 @@
- 
+body {
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn1 {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #006A50;
+}
+
+.btn2 {
+    background-color: #006A50;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font: bold;
+}
+
+.bannerSection {
+    background-color: #C6E4D6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.image img {
+  height: 200px;
+  width: 200px;
+}
+
+.img1 {
+
+}
