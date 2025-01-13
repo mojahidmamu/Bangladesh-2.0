@@ -45,6 +45,15 @@ body {
     padding-bottom: 10px;   
 }
 
+.btn6 {
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: green;
+    margin-top: 20px;
+}
+
 .btn5 {
     background-color: rgb(174, 174, 27);
     color: white;
@@ -116,4 +125,45 @@ body {
     width: 200px; 
     padding: 20px;
     background-color: #ecd192;
+}
+
+.Lorem {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 100%;
+    margin-bottom: 20px;
+    background-image: url(assets/quote-bg.png);
+}
+
+.donate h4, p{
+    text-align: center;
+    justify-content: center;
+     
+}
+
+.donate {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.donate-parent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;  
+}
+
+.donate-card {
+    height: 50px;
+    width: 100px;
+    border: 2px solid gray;
+    border-radius: 10px;
+     
+}
+
+.input {
+    width: full;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
 }
