@@ -53,6 +53,14 @@ body {
     background-color: green;
     margin-top: 20px;
 }
+.btn7 {
+    color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: green;
+    margin-top: 20px;  
+}
 
 .btn5 {
     background-color: rgb(174, 174, 27);
@@ -166,4 +174,27 @@ body {
     /* align-items: center; */
     /* justify-content: center; */
     text-align: center;
+}
+
+.input-text {
+
+}
+
+.first-footer {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.first-footer h2, p {
+    text-align: center; 
+}
+
+.last-footer h4{
+    text-align: center; 
+} 
+
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
