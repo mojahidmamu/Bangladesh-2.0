@@ -45,6 +45,16 @@ body {
     padding-bottom: 10px;   
 }
 
+.btn5 {
+    background-color: rgb(174, 174, 27);
+    color: white;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;     
+}
+
 .btn6 {
     color: white;
     border: 1px solid gray;
@@ -62,14 +72,13 @@ body {
     margin-top: 20px;  
 }
 
-.btn5 {
-    background-color: rgb(174, 174, 27);
-    color: white;
-    border-radius: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;     
+.btn8 {
+ padding: 5px; 
+ padding-left: 10px;
+ padding-right: 10px; 
+ border-radius: 10px;
+ background-color:  #78c3b0;
+ margin-top: 15px;
 }
 
 .bannerSection {
@@ -141,10 +150,15 @@ body {
     padding: 10px;
     opacity: 100%;
     margin-bottom: 20px;
-    background-image: url(assets/quote-bg.png);
+    /* background-image: url(assets/quote-bg.png); */
 }
 
-.donate h4, p{
+.title {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.donate h2, p{
     text-align: center;
     justify-content: center;
      
@@ -157,7 +171,8 @@ body {
 
 .donate-parent {
     display: flex;
-    justify-content: space-between;
+    text-align: center; 
+    justify-content: space-around;
     margin-bottom: 40px;  
 }
 
@@ -165,28 +180,35 @@ body {
     height: 50px;
     width: 100px;
     border: 2px solid gray;
-    border-radius: 10px;
-     
+    border-radius: 10px; 
 }
 
 .input {
-    width: full;
+    /* width: full; */
     /* align-items: center; */
     /* justify-content: center; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 .input-text {
-
+  
 }
 
 .first-footer {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    background-color: #8cdab7;
+    border-radius: 15px;
+    padding: 10px; 
 }
 
-.first-footer h2, p {
+.first-footer h2 {
+    text-align: center;
+}
+
+.first-footer p {
     text-align: center; 
+    color: grey;
 }
 
 .last-footer h4{
@@ -197,4 +219,45 @@ body {
     display: flex;
     justify-content: center;
     gap: 15px;
+}
+
+.Opinion-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sub-title {
+    border-right: 2px solid gray;
+    width: 80%;
+}
+
+.mojo {
+    text-align: left;
+    color: gray;
+}
+
+.mojo1 {
+    color: gray;
+}
+
+.title1 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    background-color: #78c3b0;
+}
+
+.title2 {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px; 
+    border: 2px solid gray;
 }
