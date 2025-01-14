@@ -60,8 +60,10 @@ body {
     border: 1px solid gray;
     border-radius: 10px;
     padding: 10px;
-    background-color: green;
-    margin-top: 20px;
+    background-color:  rgb(6, 123, 84);
+    margin-top: 10px;
+    margin-left: 350px;
+
 }
 .btn7 {
     color: white;
@@ -69,7 +71,8 @@ body {
     border-radius: 10px;
     padding: 5px;
     background-color: green;
-    margin-top: 20px;  
+    margin-top: 20px;
+    
 }
 
 .btn8 {
@@ -171,7 +174,6 @@ body {
 
 .donate-parent {
     display: flex;
-    text-align: center; 
     justify-content: space-around;
     margin-bottom: 40px;  
 }
@@ -179,19 +181,12 @@ body {
 .donate-card {
     height: 50px;
     width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-weight: bold; 
     border: 2px solid gray;
     border-radius: 10px; 
-}
-
-.input {
-    /* width: full; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* text-align: center; */
-}
-
-.input-text {
-  
 }
 
 .first-footer {
@@ -262,7 +257,7 @@ body {
     border: 2px solid gray;
 }
 
- .testimonial {
+.testimonial {
     border: 2px solid gray;
     border-radius: 10px;
     padding: 20px;
@@ -273,25 +268,37 @@ body {
     background-size: 40px;  
     opacity: 1;  
     position: relative;
-  }
-  
-  .testimonial blockquote {
+}
+
+.testimonial blockquote {
     font-style: italic;
     margin: 0;
     padding-left: 50px;  
     color: #444;
     line-height: 1.6;
-  }
-  
-  .testimonial h4 {
+}
+
+.testimonial h4 {
     margin-top: 15px;
     font-weight: bold;
     color: #000;
-  }
-  
-  .testimonial p {
+}
+
+.testimonial p {
     margin: 5px 0 0;
     font-size: 0.9em;
     color: #555;
-  }
-  
+}
+
+.center-horizontally {
+    display: flex;
+    justify-content: center;  
+    border-radius: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+ 
