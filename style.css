@@ -261,3 +261,37 @@ body {
     height: 60px; 
     border: 2px solid gray;
 }
+
+ .testimonial {
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 40px;  
+    opacity: 1;  
+    position: relative;
+  }
+  
+  .testimonial blockquote {
+    font-style: italic;
+    margin: 0;
+    padding-left: 50px;  
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .testimonial h4 {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .testimonial p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+    color: #555;
+  }
+  
